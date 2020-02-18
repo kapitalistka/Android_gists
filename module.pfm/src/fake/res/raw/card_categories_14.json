@@ -1,0 +1,106 @@
+{
+  "result": 0,
+  "emptyCategoriesColor": "dedede",
+  "amount": 76500000000.34,
+  "currency": "USD",
+  "data":[
+    {
+      "currency": "USD",
+      "amount": 14700.11,
+      "category": "Restaurants",
+      "color": "04ceff",
+      "percent": 22
+    },
+    {
+      "currency": "USD",
+      "amount":14000.22,
+      "category": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit a nulla non dictum. Nam pretium lacus massa, et commodo ex pulvinar eget. Duis porttitor, tortor ac tempor volutpat, leo dolor volutpat purus, a semper lectus mi dapibus magna. Curabitur efficitur, eros vel porta cursus, nisi libero iaculis eros, et ultricies augue mauris quis tortor. Duis id elit consequat, feugiat dui congue, euismod ligula. Duis euismod malesuada libero, at pulvinar tellus euismod in. Maecenas at ultrices orci. Praesent risus neque, posuere non malesuada vitae, ultricies a tortor. Morbi nisl odio, mollis sed arcu non, porta accumsan dui. Donec sed feugiat ex. Sed tincidunt tortor a semper facilisis. Mauris vehicula lectus sapien, a maximus leo venenatis sed. Vestibulum faucibus ante eu diam interdum, ac ornare tortor cursus.",
+      "color": "fa472f",
+      "percent": 21
+    },
+    {
+      "currency": "USD",
+      "amount": 12600.33,
+      "category": "300 or 350",
+      "color": "2d9200",
+      "percent": 19
+    },
+    {
+      "currency": "RUB",
+      "amount": 9700.44,
+      "category": "Unknown",
+      "color": "f7e926",
+      "percent": 15
+    },
+    {
+      "currency": "EUR",
+      "amount": 7000.55,
+      "category": "health",
+      "color": "c747a3",
+      "percent": 11
+    },
+    {
+      "currency": "USD",
+      "amount": 5000.00,
+      "category": "shops",
+      "color": "4b5de4",
+      "percent": 8
+    },
+    {
+      "currency": "USD",
+      "amount": 3100.00,
+      "category": "my 100",
+      "color": "ff8e02",
+      "percent": 5
+    },
+    {
+      "currency": "USD",
+      "amount": 3200.00,
+      "category": "my 200",
+      "color": "ff0000",
+      "percent": 5
+    },
+    {
+      "currency": "USD",
+      "amount": 3300.00,
+      "category": "my 300",
+      "color": "00ff00",
+      "percent": 5
+    },
+    {
+      "currency": "USD",
+      "amount": 3400.00,
+      "category": "my 400",
+      "color": "0000ff",
+      "percent": 5
+    },
+    {
+      "currency": "USD",
+      "amount": 3500.00,
+      "category": "my 500",
+      "color": "ff00ff",
+      "percent": 5
+    },
+    {
+      "currency": "USD",
+      "amount": 3600.00,
+      "category": "my 600",
+      "color": "ffff00",
+      "percent": 5
+    },
+    {
+      "currency": "USD",
+      "amount": 3700.00,
+      "category": "my 700",
+      "color": "ffffff",
+      "percent": 5
+    },
+    {
+      "currency": "USD",
+      "amount": 3800.00,
+      "category": "my 800",
+      "color": "000000",
+      "percent": 5
+    }
+  ]
+}

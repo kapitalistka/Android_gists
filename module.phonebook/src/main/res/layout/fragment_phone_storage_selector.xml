@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/group_table_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/view_enter_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_clickable_white_with_padding"
+        android:layout_marginTop="@dimen/padding_main"
+        android:gravity="center"
+        android:padding="@dimen/padding_main"
+        tools:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/padding_main"
+            android:layout_marginRight="@dimen/padding_main"
+            android:contentDescription="@null"
+            app:srcCompat="@drawable/ic_keyboard_24dp"/>
+
+        <TextView
+            style="@style/list_item_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/storage_by_phone_number"/>
+    </LinearLayout>
+
+</LinearLayout>

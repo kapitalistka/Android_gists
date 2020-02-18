@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ThemePfmDark" parent="Theme.MaterialTheme">
+        <item name="android:textColorPrimary">@color/text_pfm_main_theme_dark</item>
+    </style>
+
+    <style name="TextAppearance.Medium" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">@color/text_pfm_main</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextAppearance.ListItemTitle" parent="TextAppearance.Medium"></style>
+
+    <style name="pfm_text_balance">
+        <item name="android:textColor">@color/text_pfm_main</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+
+    <style name="pfm_text_balance_secondary">
+        <item name="android:textColor">@color/text_pfm_sub</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">@dimen/text_size_big</item>
+    </style>
+
+    <style name="pfm_text_operation_description" parent="@style/operation_description">
+        <item name="android:textColor">@color/text_pfm_main</item>
+    </style>
+</resources>

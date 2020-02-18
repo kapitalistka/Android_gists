@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="36dp">
+    <ru.bpc.piechart.ui.view.PieChartView
+        android:id="@+id/pieChart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:startAngle="210"
+        app:fillColor="#eeeeee"
+        app:choiceMode="single"
+        app:thicknessDefault="@dimen/pie_chart_segment_thickness_default"
+        app:thicknessSelected="@dimen/pie_chart_segment_thickness_selected"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="W,72:100"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/pieChart"
+        app:layout_constraintEnd_toEndOf="@+id/pieChart"
+        app:layout_constraintStart_toStartOf="@+id/pieChart"
+        app:layout_constraintTop_toTopOf="@+id/pieChart"
+        app:layout_constraintDimensionRatio="W,1:1"
+        android:layout_margin="@dimen/padding_content_pie_chart">
+        <TextView
+            android:id="@+id/selectedCategoryText"
+            style="@style/param_output_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textSize="@dimen/text_title_pie_chart_category"
+            tools:text="All categories"/>
+        <TextView
+            android:id="@+id/selectedCategoryAmountText"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="match_parent"
+            android:layout_height="36sp"
+            android:gravity="center"
+            app:autoSizeMaxTextSize="32sp"
+            app:autoSizeTextType="uniform"
+            android:maxLines="1"
+            tools:text="6 500 ₽"/>
+        <ImageView
+            android:id="@+id/categoryTransactionsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_category_transactions"
+            android:rotation="180"
+            android:contentDescription="@null"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

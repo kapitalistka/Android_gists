@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?selectableItemBackground"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="13dp"
+    android:paddingBottom="11dp"
+    android:gravity="center_vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/contactPhotoIv"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:contentDescription="@null"
+        android:layout_marginEnd="12dp"
+        tools:src="@drawable/icon_mir"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginEnd="8dp">
+        <TextView
+            android:id="@+id/contactNameTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/list_item_text"
+            android:textSize="@dimen/text_size_mini"
+            android:layout_marginBottom="6dp"
+            tools:text="Bernice Bowen"/>
+
+        <TextView
+            android:id="@+id/contactPhoneTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/list_item_text_sub"
+            android:textSize="@dimen/text_size_mini"
+            tools:text="+7 (925) 310-24-56" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/contactMarkIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/contact_check_mark"
+        tools:ignore="ContentDescription" />
+
+</LinearLayout>

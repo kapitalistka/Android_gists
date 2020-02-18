@@ -1,0 +1,1 @@
+-keepclassmembers class com.android.module.phonebook.net.dto.** {public *; }

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="14dp"
+    android:paddingBottom="14dp"
+    android:background="?selectableItemBackground">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+        <ru.bpc.piechart.ui.view.PieChartView
+            android:id="@+id/categoryPieChart"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            app:fillColor="#eeeeee"
+            app:choiceMode="none"
+            app:thicknessDefault="3dp"
+            app:thicknessSelected="3dp"
+            android:layout_marginEnd="16dp"/>
+
+        <TextView
+            android:id="@+id/categoryName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.ListItemTitle"
+            android:layout_marginEnd="16dp"
+            tools:text="Food"/>
+
+        <TextView
+            android:id="@+id/categoryAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.ListItemTitle"
+            tools:text="10 000 ₽"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/categoryAmountPercent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        style="@style/param_output_title"
+        tools:text="32 %"/>
+
+</LinearLayout>

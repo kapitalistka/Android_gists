@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">pfm</string>
+    <string name="title_menu_pfm">Мои операции</string>
+    <string name="title_filters_pfm">Фильтры</string>
+    <string name="title_date_filter">Операции за %1$s - %2$s</string>
+    <string name="title_all_categories">Все категории</string>
+    <string name="item_title_no_data">Ничего не найдено</string>
+    <string name="title_section_filter_date">Показать историю за:</string>
+    <string name="title_param_pfm_date">Дата операции</string>
+    <string name="title_param_pfm_time">Время операции</string>
+    <string name="title_param_pfm_card_number">Источник платежа</string>
+    <string name="menu_action_clear">Очистить</string>
+    <string name="filter_date_all_time">Все время</string>
+    <string name="filter_date_day">День</string>
+    <string name="filter_date_week">Неделя</string>
+    <string name="filter_date_month">Месяц</string>
+    <string name="filter_date_custom">Период</string>
+    <string name="button_filter_apply">Применить</string>
+    <string name="title_param_date_filter_from">Начало</string>
+    <string name="title_param_date_filter_to">Конец</string>
+    <string name="hint_select_start_date">Дата начала</string>
+    <string name="hint_select_end_date">Дата окончания</string>
+    <string name="transaction_state_done">Выполнен</string>
+</resources>

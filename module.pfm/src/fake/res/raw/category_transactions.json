@@ -1,0 +1,68 @@
+{
+  "result": 0,
+  "category": "restaurants",
+  "amount": 14700.12,
+  "currency": "USD",
+  "data": [
+    {
+      "description": "Transfer",
+      "currency": "USD",
+      "amount": -1400.11,
+      "timestamp": "20181120135837"
+    },
+    {
+      "description": "[Reversal] Transfer",
+      "currency": "USD",
+      "amount": 1800.22,
+      "timestamp": "20181120125837"
+    },
+    {
+      "description": "[Reversal] Payment to provider",
+      "currency": "USD",
+      "amount": 1300.33,
+      "timestamp": "20181117155837"
+    },
+    {
+      "description": "Transfer",
+      "currency": "USD",
+      "amount": -1300.44,
+      "timestamp": "20181117145837"
+    },
+    {
+      "description": "Transfer",
+      "currency": "USD",
+      "amount": -700.55,
+      "timestamp": "20181115135837"
+    },
+    {
+      "description": "[Reversal] Payment to provider",
+      "currency": "USD",
+      "amount": 1200.00,
+      "timestamp": "20181115125837"
+    },
+    {
+      "description": "[Reversal] Payment to provider",
+      "currency": "USD",
+      "amount": 1900.00,
+      "timestamp": "20181112155837"
+    },
+    {
+      "description": "Payment to provider",
+      "currency": "USD",
+      "amount": -1200.00,
+      "timestamp": "20181112145837"
+    },
+    {
+      "description": "Transfer",
+      "currency": "USD",
+      "amount": -1900.00,
+      "timestamp": "20181110135837"
+    },
+    {
+      "description": "[Reversal] Repayment for purchase",
+      "currency": "USD",
+      "amount": 2000.00,
+      "timestamp": "20181110125837"
+    }
+  ]
+}

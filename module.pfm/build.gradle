@@ -1,0 +1,58 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.compileSdkVersion
+        versionCode 1
+        versionName "1.0"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            consumerProguardFiles 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
+            consumerProguardFiles 'proguard-rules.pro'
+        }
+    }
+
+    flavorDimensions "data"
+
+    productFlavors {
+        fake {
+            dimension "data"
+        }
+        prod {
+            dimension "data"
+        }
+    }
+
+}
+
+dependencies {
+    api project(':pdk.mb')
+    api project(':pdk.piechart')
+    api project(':module.cards')
+
+    implementation "com.xwray:groupie:$rootProject.ext.groupie"
+    implementation "com.xwray:groupie-kotlin-android-extensions:$rootProject.ext.groupie"
+
+    testImplementation "junit:junit:$rootProject.ext.junitVersion"
+    testImplementation "org.mockito:mockito-core:$rootProject.ext.mockitoVersion"
+    testImplementation "org.powermock:powermock-module-junit4:$rootProject.ext.powerMockitoVersion"
+    testImplementation "org.powermock:powermock-api-mockito:$rootProject.ext.powerMockitoVersion"
+}

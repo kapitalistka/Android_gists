@@ -1,0 +1,57 @@
+{
+  "result": 0,
+  "emptyCategoriesColor": "dedede",
+  "amount": 66100.23,
+  "currency": "USD",
+  "data":[
+    {
+      "currency": "USD",
+      "amount": 14700.11,
+      "category": "Restaurants",
+      "color": "04ceff",
+      "percent": 22
+    },
+    {
+      "currency": "USD",
+      "amount":14000.22,
+      "category": "only 400 or 450",
+      "color": "fa472f",
+      "percent": 21
+    },
+    {
+      "currency": "USD",
+      "amount": 12600.33,
+      "category": "300 or 350",
+      "color": "2d9200",
+      "percent": 19
+    },
+    {
+      "currency": "USD",
+      "amount": 9700.44,
+      "category": "Unknown",
+      "color": "f7e926",
+      "percent": 15
+    },
+    {
+      "currency": "USD",
+      "amount": 7000.55,
+      "category": "health",
+      "color": "c747a3",
+      "percent": 11
+    },
+    {
+      "currency": "USD",
+      "amount": 5000.00,
+      "category": "shops",
+      "color": "4b5de4",
+      "percent": 8
+    },
+    {
+      "currency": "USD",
+      "amount": 3100.00,
+      "category": "my 100",
+      "color": "ff8e02",
+      "percent": 5
+    }
+  ]
+}

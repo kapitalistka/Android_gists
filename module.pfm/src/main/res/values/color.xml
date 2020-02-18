@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_pfm_main">#222222</color>
+    <color name="text_pfm_sub">#939393</color>
+    <color name="text_pfm_main_theme_dark">#f5f5f5</color>
+    <color name="text_pfm_filter_chip_default">@android:color/white</color>
+    <color name="background_pfm_filter_chip_default">@color/main_color</color>
+    <color name="color_pfm_filter_chip_stroke">#bcbcbc</color>
+    <color name="pfm_horizontal_divider">#eeeeee</color>
+</resources>

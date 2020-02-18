@@ -1,0 +1,18 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.module.phonebook">
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="false"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+
+        <activity
+            android:name="com.android.module.phonebook.ui.phonebook.PhoneBookActivity"
+            android:label="@string/title_activity_phone_book"
+            android:screenOrientation="portrait"/>
+
+    </application>
+
+</manifest>

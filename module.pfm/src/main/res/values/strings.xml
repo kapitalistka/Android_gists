@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">pfm</string>
+    <string name="title_menu_pfm">My finances</string>
+    <string name="title_filters_pfm">Filters</string>
+    <string name="title_date_filter">Operations for %1$s - %2$s</string>
+    <string name="title_date_filter_short" translatable="false">%1$s - %2$s</string>
+    <string name="title_all_categories">All categories</string>
+    <string name="template_percent" translatable="false">%1$d %%</string>
+    <string name="item_title_no_data">Nothing found</string>
+    <string name="title_section_filter_date">Show transactions for the last:</string>
+    <string name="title_param_pfm_date">Operation date</string>
+    <string name="title_param_pfm_time">Operation time</string>
+    <string name="title_param_pfm_card_number">Payment source</string>
+    <string name="menu_action_clear">Clear</string>
+    <string name="filter_date_all_time">All time</string>
+    <string name="filter_date_day">Day</string>
+    <string name="filter_date_week">Week</string>
+    <string name="filter_date_month">Month</string>
+    <string name="filter_date_custom">Custom</string>
+    <string name="button_filter_apply">Apply</string>
+    <string name="title_param_date_filter_from">From</string>
+    <string name="title_param_date_filter_to">To</string>
+    <string name="hint_select_start_date">Select start date</string>
+    <string name="hint_select_end_date">Select end date</string>
+    <string name="transaction_state_done">Completed</string>
+</resources>

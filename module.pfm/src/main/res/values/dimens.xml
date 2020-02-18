@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_title_pie_chart_category">14sp</dimen>
+    <dimen name="padding_content_pie_chart">50dp</dimen>
+    <dimen name="pie_chart_segment_thickness_default">30dp</dimen>
+    <dimen name="pie_chart_segment_thickness_selected">41dp</dimen>
+</resources>

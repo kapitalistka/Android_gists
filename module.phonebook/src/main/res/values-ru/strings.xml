@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Phone book</string>
+    <string name="title_activity_phone_book">Выберите контакт</string>
+    <string name="storage_by_phone_number">По номеру телефона</string>
+</resources>
